@@ -1,0 +1,36 @@
+table {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+thead {
+    background: rgb(46, 46, 46);
+    text-align: center;
+    color: white;
+}
+
+td {
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+tr {
+    transition: .1s ease;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: rgb(211, 211, 211);
+}
+
+tbody tr:hover {
+    background: rgb(139, 139, 139);
+}
+
+#span-el {
+    cursor: pointer;
+}
+
+#span-el2 {
+    cursor: pointer;
+    display: none;
+}

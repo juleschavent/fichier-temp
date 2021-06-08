@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
           <td>type</td>
           <td>typeTrad</td>
           <td>desc</td>
-          <td>price</td>
+          <td>price <span id="span-el"><i class="fas fa-arrows-alt-v"></i></span><span id="span-el2"><i class="fas fa-arrows-alt-v"></i></span></td>
           <td>qty</td>
         </tr>
       </thead>
@@ -23,14 +24,16 @@
 
       </tbody>
     </table>
-    <input type="text" id="input-el">
+    <input type="text" id="input-el" placeholder="Rechercher par type">
     <button id="btn-el" type="button">Search</button>
+    <label for="checkBox">Cacher article en rupture de stock</label>
     <input type="checkbox" name="checkBox" id="check-el">
+
   </div>
 
 
 
-
+  <script src="https://kit.fontawesome.com/7ae7e68011.js" crossorigin="anonymous"></script>
   <script src="datas.js"></script>
   <script src="exo7.js"></script>
 </body>
